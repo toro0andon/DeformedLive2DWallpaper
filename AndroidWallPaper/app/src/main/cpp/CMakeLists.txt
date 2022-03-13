@@ -1,0 +1,25 @@
+target_sources(${APP_NAME}
+  PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/JniBridgeC.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/JniBridgeC.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperAllocator.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperAllocator.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperDefine.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperDefine.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperDelegate.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperDelegate.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperLive2DManager.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperLive2DManager.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperModel.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperModel.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperPal.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperPal.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperSprite.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperSprite.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperTextureManager.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperTextureManager.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperView.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LWallpaperView.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/TouchManager.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/TouchManager.hpp
+)

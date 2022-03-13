@@ -1,0 +1,24 @@
+# Core directory files
+/Core/**/*.a
+/Core/**/*.bundle
+/Core/**/*.dll
+/Core/**/*.dylib
+/Core/**/*.lib
+/Core/**/*.so
+
+# Sample third party files
+/Samples/**/thirdParty/*
+!/Samples/OpenGL/thirdParty/stb/*
+# build directories
+/AndroidWallPaper/build/
+# Other files
+/build/
+.vs/
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+
+# Toro added
+/AndroidWallPaper/Resources/
