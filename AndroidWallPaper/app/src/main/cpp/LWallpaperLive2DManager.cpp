@@ -64,7 +64,7 @@ LWallpaperModel* LWallpaperLive2DManager::GetModel() const
     return _model;
 }
 
-void LWallpaperLive2DManager::OnDrag(csmFloat32 x, csmFloat32 y) const
+void LWallpaperLive2DManager::OnDrag(csmFloat32 x, csmFloat32 y) //const
 {
     //灯篭が追加
     changeModel("MangaJK02");
@@ -127,7 +127,8 @@ void LWallpaperLive2DManager::OnUpdate() const
     LWallpaperDelegate::GetInstance()->GetView()->PostModelDraw(*model);
 }
 
-void LWallpaperLive2DManager::SetAssetDirectory(const std::string &path)
+void LWallpaperLive2DManager::SetAssetDirectory(std::string &path)
+//void LWallpaperLive2DManager::SetAssetDirectory(const std::string &path)
 {
     _currentModelDirectory = path;
 }

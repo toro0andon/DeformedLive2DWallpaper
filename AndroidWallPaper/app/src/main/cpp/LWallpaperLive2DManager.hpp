@@ -56,7 +56,7 @@ public:
     * @param[in]   x   画面のX座標
     * @param[in]   y   画面のY座標
     */
-    void OnDrag(Csm::csmFloat32 x, Csm::csmFloat32 y) const;
+    void OnDrag(Csm::csmFloat32 x, Csm::csmFloat32 y);//const;
 
     /**
     * @brief   画面をタップしたときの処理
@@ -96,7 +96,8 @@ private:
     *
     * モデルのディレクトリパスを設定する
     */
-    void SetAssetDirectory(const std::string& path);
+    void SetAssetDirectory(std::string& path);
+    //void SetAssetDirectory(const std::string& path);
 
     /**
     * @brief モデルの読み込み
