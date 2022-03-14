@@ -1,3 +1,7 @@
+# 灯篭コメント
+ReferenceフォルダにはLiv2Dモデルなどが格納されているが、アップロードはしていない
+
+↓サンプルアプリのReadMe
 # Cubism Android Wallpaper Sample
 
 Live2D Cubism 4 Editor で出力したモデルを表示する LiveWallpaper アプリケーションのサンプルです。
